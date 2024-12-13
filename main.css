@@ -1,0 +1,116 @@
+* {
+    background-color: black;
+    color: darkred;
+} 
+
+header,
+section h2,
+section h3 {
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body,
+input, {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header {
+    padding: 40px 0;
+    background-color:black
+    color: darkred;
+    cursor: pointer;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: darkred;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header nav li a:hover {
+    width: 1px 0;
+    padding: 1px 0;
+}
+
+.front-side {
+    margin-left: 440px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 200px;
+    margin-left: 100px;
+}
+
+.brands-list li {
+    display: inline; 
+    margin-right: 40px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+#PRE-ORDER .container {
+    display: block;
+}
+
+.informations {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+section h3 {
+    margin-left: 80px;
+}
+
+form button {
+    background-color: darkred; 
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(119, 51, 51);
+}
